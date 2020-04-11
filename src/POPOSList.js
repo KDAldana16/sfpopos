@@ -11,7 +11,7 @@ function POPOSList() {
       <POPOSSpace
         name="50 California Street"
         address="50 California St."
-        image="50-california-st.jpg"
+        image="../images/50-california-st.jpg"
       />
       <POPOSSpace
         name="100 Pine Street"
