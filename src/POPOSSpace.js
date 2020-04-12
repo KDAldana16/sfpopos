@@ -5,12 +5,13 @@ import React from 'react';
 import './POPOSSpace.css';
 
 function POPOSSpace(props) {
-  const { name, image, address } = props
+  const { name, image, address, hours} = props
   return (
     <div className="POPOSSpace">
-      <img src={`${process.env.PUBLIC_URL}images/${image}`} width="300" height="300" className="POPOSSpace" alt="Hello" />
       <h1>{name}.</h1>
+      <img src={`${process.env.PUBLIC_URL}images/${image}`} width="300" height="300" className="POPOSSpace" alt="Hello" />
       <div>{address}</div>
+      <div>{hours}</div>
     </div>
   )
 }
