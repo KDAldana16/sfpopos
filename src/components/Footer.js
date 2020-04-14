@@ -9,7 +9,6 @@ function Footer() {
   return (
     <div className="Footer">
       <footer>
-        <h1>FOOTER</h1>
         <div className="Copyright">
           Karla Aldana copyright 2020
         </div>

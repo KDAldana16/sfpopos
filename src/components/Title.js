@@ -3,7 +3,7 @@
 
 import React from 'react'
 import './Title.css';
-import { Navlink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Title() {
   return (
@@ -13,16 +13,16 @@ function Title() {
         <div className="Title-Subtitle"> San Franscisco Privately Owned Public Open Spaces </div>
 
           <div>
-            <Navlink
-              className="nav-link"
-              activeClassName="nav-link-active"
-              exact
-              to="/">List</Navlink>
-
-            <Navlink
+          <NavLink
             className="nav-link"
             activeClassName="nav-link-active"
-            to="/about">About</Navlink>
+            exact
+            to="/">List</NavLink>
+
+          <NavLink
+            className="nav-link"
+            activeClassName="nav-link-active"
+            to="/about">About</NavLink>
           </div>
 
       </header>

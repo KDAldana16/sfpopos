@@ -2,7 +2,6 @@
 // src/POPOSList.js
 
 
-import { Link } from 'react-router-dom'
 import React from 'react';
 import POPOSSpace from './POPOSSpace';
 import './POPOSList.css';
@@ -11,11 +10,10 @@ import data from './sfpopos-data.json'
 
 function POPOSList() {
 
-  const spaces = data.map(( { title, address, images, hours }, i ) => {
+  const spaces = data.map(( { title, address, images, hours }) => {
+
     return (
       <POPOSSpace
-        id={i}
-        key={title}
         name={title}
         address={address}
         image={images[0]}
