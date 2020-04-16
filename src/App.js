@@ -1,15 +1,15 @@
 
 // src/App.js
 
-import POPOSList from './POPOSList';
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
-import Footer from './Footer';
+import POPOSList from './POPOSList.js';
+import Footer from './Footer.js';
 import { HashRouter as Router, Route } from 'react-router-dom'
-import About from './About'
-import POPOSDetails from './POPOSDetails'
+import About from './About.js'
+import POPOSDetails from './POPOSDetails.js'
 
 
 function App() {

@@ -19,7 +19,7 @@ function POPOSDetails(props) {
         <p>{ desc }</p>
         <p>{ hours }</p>
         <p>{ features }</p>
-        <p>{ geo.lat }{ geo.lon }</p>
+        <p>{ geo.lat } { geo.lon }</p>
       </div>
 
     </div>
